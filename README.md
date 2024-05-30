@@ -26,7 +26,7 @@ Ubah atau Salin file `.env.example` ke `.env`
 ### Database
 
 1. Migrate tabel database `php artisan migrate` atau bisa menggunakan database yang telah disediakan.
-1. `php artisan db:seed`, Ini akan menginisialisasi pengaturan dan membuat pengguna admin untuk Anda. [email: admin@gmail.com - password: admin123]
+1. `php artisan db:seed`, Ini akan menginisialisasi pengaturan dan membuat pengguna admin untuk Anda. [username: palmtimpa - password: timpala]
 
 ### Install Node Dependencies
 
@@ -40,4 +40,4 @@ Ubah atau Salin file `.env.example` ke `.env`
 ### Run Server
 
 1. `php artisan serve`
-1. buka `localhost` dibrowser. Email admin : `admin@gmail.com`, Password: `admin123`.
+1. buka `localhost` dibrowser. Email admin : `palmtimpa`, Password: `timpala`.
