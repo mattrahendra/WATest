@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "black-velocity-414808",
+  "private_key_id": "71125de0a3622e4e8f607d46e3aad46a9edf8cc9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC/zQVRyDnVDEBe\nnYXy8OJip+sWXtP64vHq55QRneGMT/I/nVqfNyoWpviRD/VHsk45Pra+ZqCpKfun\ngBpm9JxrVLb9fDdxU3Abf67nRS6AjIhlh2kGelBOMjr0114PQGpwrRqQVZ1OmAAW\nrh4Nsm9KTXuFcnXdXMdLdbdjNAQwkMw02tq7g2I8Hw3MBqfCrDA5uoAKpOmFYDQe\nWPxVY1NvhDsYVY1O7ltiiQLnbOF7+ZI7V5jEEiZrpZCVWgcNlM7g4Q1zCXeuB85A\neSWDn9sJ3artZw5Gv8vBpc5FitpQTC/Q3De9uN2Vfzv8yeoALVcRMWRdn2AOQoQY\nbJa43e4zAgMBAAECggEAKc55g1r+aBbUjQsO4GZrIg/x6R1gXUZMbuRtXO2p9RiT\n+BPHZf7zOJ7KfWwaDbeq30VxNc1O5bCV/uuoVZqp4adEf7osp5IFVKkfKZ/lw/Vd\n4auDU/sjN/gw659qDC8BRHAm4yEWOcRd+JOZT2j+YxbCftL1J/wKIMOW5pO2+hKk\n9iZADq8a4BUpx0+g4zKN6HW2ON4tST73xp82ufYpZcTIw4TbIXyKPNjAUIp+Q63q\nhODsD9C0y5+HQobSzWvwMukvtqoergkH9zOdPcxTf1ebDfnBCqgVt6U9D+y5TIXB\nfUaIhv2HfNXfMtKJtUGO1tmIIRDaurRDTYl+Yv0xWQKBgQDr6w8D0esfP/uCU7Nu\nDoksaj8KDlg1oicu1yrjyvXPXWzG6lilh5RueXXizjnltfrjihKc5HjRamYQIxqA\n5j5uS0ha8BwgfLehc7nUtThA3FIuhvSdT6Kt13vzyC7tFvMOEYV94rEbWyKSKQpV\ntsFgDVMoVwgXlQymwEv/N6mPBwKBgQDQIJeh2ZIRpTQyIDf7aeseItI9U8OtP9DB\npuVQF6V+jWJV8RBNVI5QKtg3bRu1Lg7qSHpjo99teppBWIe4r6qTkm98aTIYzqVa\nXlOIDItQNNY6FRuGTT1CnxyPuIURq7NPP32eLSSRItfjCT84ZGNOsdr9vWuT5Hwr\nDYa5cC/wdQKBgA2GOyUf6pevBk8RV07u3GREbvq3mczxT8e6pAXNA8xwcaTxmEVd\nAWBX7C8lXWJSzWAv8SM3Ycm3jMRODt3m1Rtji3FTJHmkTK6fwL516RSmzLtIF0vR\nXeUTXlK6Xh5PW32p+Xoe/cIwtkmkuqfxQyKrgOHmI1ueusvwaCroWPsPAoGAWC4m\n8J0VJULAjahW77+drWQFfZRa6LGMCjBjIf8S0D6o9k6voIP90/uDJmClB6ufCCZz\nLHpG9MSoTJ1sy5QqCmJVt/l+D0KmjlY+v/rIn8/zICLHSay6EtsFJ+N/BdCgpSf6\nWiU4RAHmRDwrvAHUjYgPh8hUpxF8hmUxuqnMte0CgYBDqHplhAEZ5hQxkvlMG3+n\nPp2SDFxESCLW3dZVbISNKtCdHwTp4vcEafyxFuDDi8zLmorNPuqqgxScfnGXqbvA\nz1aH3HafP+6CswbWnPxgQjsFrumYzYCgaPuLPv3IUBqvYi+ZiyJ6vYyW/EsPCdvK\n3Oxjhye2BSs9yZeeJ1pHUw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "wmreader@black-velocity-414808.iam.gserviceaccount.com",
+  "client_id": "116256246619094124378",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/wmreader%40black-velocity-414808.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
