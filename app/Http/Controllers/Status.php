@@ -5,12 +5,34 @@ namespace App\Http\Controllers;
 use App\Models\Baterai;
 use Google\Cloud\BigQuery\BigQueryClient;
 use Illuminate\Http\Request;
+use Kreait\Firebase\Factory;
 
 class Status extends Controller
 {
     public function index() {
         $status = Baterai::all();
-        return view('status.page', ['status' => $status]);
+
+        $fileName = 'data/photo.jpg';
+
+        $serviceAccountPath = base_path('/wmreader-8eff4-firebase-adminsdk-m20nm-a9ec95e4ca.json'); // Pastikan path ini benar
+
+        // Inisialisasi Firebase
+        $firebase = (new Factory)
+            ->withServiceAccount($serviceAccountPath)
+            ->withDefaultStorageBucket('wmreader-8eff4.appspot.com');
+
+        // Inisialisasi Storage Client
+        $storage = $firebase->createStorage();
+
+        // Nama bucket storage Firebase
+        $bucket = $storage->getBucket();
+        $object = $bucket->object($fileName);
+
+
+        // Mendapatkan URL publik file
+        $url = $object->signedUrl(new \DateTime('1 hour'));
+        return view('status.page', ['status' => $status, 'fireimage' => $url]);
+
     }
 
     // public function index()

@@ -10,6 +10,7 @@
         "google/cloud-bigquery": "^1.30",
         "google/cloud-core": "^1.58",
         "google/cloud-sql-admin": "^0.17.0",
+        "kreait/firebase-php": "^7.12",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9"
     },

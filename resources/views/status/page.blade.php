@@ -55,6 +55,7 @@
                                 <th scope="col">Persentase Baterai</th>
                                 <th scope="col">Status</th>
                                 <th scope="col">Waktu</th>
+                                <th scope="col">Image</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -64,6 +65,9 @@
                                     <td>{{ $status['persentase_baterai'] . '%' }}</td>
                                     <td>{{ $status['status'] }}</td>
                                     <td>{{ $status['created_at'] }}</td>
+                                    <td>
+                                        <img src="{{$fireimage}}" alt="gambar" style="width: 25%">
+                                    </td>
                                 </tr>
                             @endforeach
                         </tbody>
