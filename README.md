@@ -7,7 +7,7 @@
 
 ### Clone repository dari github.
 
-    git clone https://github.com/mattrahendra/POSql.git [NamaDirektoriFile]
+    git clone https://github.com/mattrahendra/WATest.git [NamaDirektoriFile]
 
 
 ### Install dependencies
